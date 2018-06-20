@@ -15,6 +15,19 @@
     "babel-preset-env": "^1.7.0",
     "parcel": "^1.9.2"
   },
+  "optionalDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-watch": "^3.1.5"
+  },
   "babel": {
     "presets": [
       "env"
@@ -28,5 +41,52 @@
     "> 1%",
     "last 8 versions",
     "ie 9"
-  ]
+  ],
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:promise/recommended",
+      "plugin:jest/recommended",
+      "airbnb-base",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "promise",
+      "no-loops",
+      "jest"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true,
+        "jsx": true
+      }
+    },
+    "globals": {
+      "document": true
+    },
+    "settings": {
+      "react": {
+        "pragma": "m"
+      }
+    },
+    "rules": {
+      "max-len": [
+        "error",
+        {
+          "code": 80
+        }
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "promise/prefer-await-to-callbacks": "error",
+      "promise/prefer-await-to-then": "error",
+      "no-loops/no-loops": 2,
+      "react/no-deprecated": "off"
+    }
+  }
 }
