@@ -1,0 +1,32 @@
+{
+  "name": "parcel-inferno",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build app/index.html --public-url .",
+    "rebuild": "parcel build app/index.html --no-cache --public-url .",
+    "serve": "parcel app/index.html --open"
+  },
+  "dependencies": {
+    "inferno": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-inferno": "^5.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel": "^1.9.2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-runtime",
+      "inferno"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 8 versions",
+    "ie 9"
+  ]
+}
