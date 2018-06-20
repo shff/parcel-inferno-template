@@ -4,7 +4,10 @@
   "scripts": {
     "build": "parcel build app/index.html --public-url .",
     "rebuild": "parcel build app/index.html --no-cache --public-url .",
-    "serve": "parcel app/index.html --open"
+    "serve": "parcel app/index.html --open",
+    "lint": "eslint app/**/*.js app/**/*.vue",
+    "esw": "esw ./app --ext .js --ext .vue -w --color --clear",
+    "test": "jest"
   },
   "dependencies": {
     "inferno": "^5.1.1"
@@ -17,6 +20,7 @@
   },
   "optionalDependencies": {
     "babel-eslint": "^8.2.3",
+    "babel-jest": "^23.0.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-friendly-formatter": "^4.0.1",
@@ -26,7 +30,8 @@
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.9.1",
-    "eslint-watch": "^3.1.5"
+    "eslint-watch": "^3.1.5",
+    "jest": "^23.1.0"
   },
   "babel": {
     "presets": [
