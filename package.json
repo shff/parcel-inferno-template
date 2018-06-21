@@ -6,6 +6,7 @@
     "rebuild": "parcel build app/index.html --no-cache --public-url .",
     "serve": "parcel app/index.html --open",
     "lint": "eslint app/**/*.js app/**/*.vue",
+    "lint:ts": "tslint src/*.ts{,x} src/**/*.ts{,x}",
     "esw": "esw ./app --ext .js --ext .vue -w --color --clear",
     "test": "jest"
   },
@@ -31,7 +32,8 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.9.1",
     "eslint-watch": "^3.1.5",
-    "jest": "^23.1.0"
+    "jest": "^23.1.0",
+    "tslint": "^5.10.0"
   },
   "babel": {
     "presets": [
@@ -92,6 +94,34 @@
       "promise/prefer-await-to-then": "error",
       "no-loops/no-loops": 2,
       "react/no-deprecated": "off"
+    }
+  },
+  "tslint": {
+    "extends": "tslint:recommended",
+    "rules": {
+      "forin": false,
+      "indent": [ true, "tabs" ],
+      "interface-name": false,
+      "ban-types": true,
+      "max-classes-per-file": true,
+      "max-line-length": false,
+      "member-access": true,
+      "member-ordering": false,
+      "no-bitwise": false,
+      "no-conditional-assignment": false,
+      "no-debugger": false,
+      "no-empty": true,
+      "no-namespace": false,
+      "no-unused-expression": true,
+      "object-literal-sort-keys": true,
+      "one-variable-per-declaration": [true, "ignore-for-loop"],
+      "only-arrow-functions": [false],
+      "ordered-imports": true,
+      "prefer-const": true,
+      "prefer-for-of": false,
+      "quotemark": [ true, "single", "jsx-double" ],
+      "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+      "variable-name": false
     }
   }
 }
