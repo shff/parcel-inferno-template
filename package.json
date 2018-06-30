@@ -10,28 +10,28 @@
     "test": "jest"
   },
   "dependencies": {
-    "inferno": "^5.1.1"
+    "inferno": "^5.2.0"
   },
   "devDependencies": {
     "babel-plugin-inferno": "^5.0.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "parcel": "^1.9.2"
+    "parcel": "^1.9.3"
   },
   "optionalDependencies": {
-    "babel-eslint": "^8.2.3",
-    "babel-jest": "^23.0.1",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
+    "babel-eslint": "^8.2.5",
+    "babel-jest": "^23.2.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb-base": "^13.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-html": "^4.0.5",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-react": "^7.9.1",
-    "eslint-watch": "^3.1.5",
-    "jest": "^23.1.0"
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-watch": "^4.0.0",
+    "jest": "^23.2.0"
   },
   "babel": {
     "presets": [
