@@ -10,42 +10,42 @@
     "test": "jest"
   },
   "dependencies": {
-    "inferno": "^5.2.0"
+    "inferno": "^7.1.7"
   },
   "devDependencies": {
-    "babel-plugin-inferno": "^5.0.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "babel-plugin-inferno": "^6.0.4",
     "parcel": "^1.9.3"
   },
   "optionalDependencies": {
-    "babel-eslint": "^8.2.5",
-    "babel-jest": "^23.2.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
     "eslint": "^5.0.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-html": "^5.0.3",
     "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jest": "^22.3.0",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.10.0",
     "eslint-watch": "^4.0.0",
-    "jest": "^23.2.0"
+    "jest": "^24.1.0"
   },
   "babel": {
     "presets": [
-      "env"
+      "@babel/env"
     ],
     "plugins": [
-      "transform-runtime",
+      "@babel/plugin-transform-runtime",
       "inferno"
     ]
   },
   "browserslist": [
-    "> 1%",
-    "last 8 versions",
-    "ie 9"
+    "> 0.6%",
+    "not ie 11",
+    "not op_mini all"
   ],
   "eslintConfig": {
     "extends": [
