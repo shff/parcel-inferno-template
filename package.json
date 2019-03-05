@@ -18,6 +18,7 @@
     "babel-plugin-inferno": "^6.0.5",
     "parcel": "^1.9.3",
     "parcel-plugin-compress": "^1.0.7",
+    "parcel-plugin-inliner": "^1.0.6",
     "postcss-remove-unused-css": "^1.0.4"
   },
   "optionalDependencies": {
