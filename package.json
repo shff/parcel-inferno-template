@@ -10,31 +10,31 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "inferno": "^7.1.9"
+    "inferno": "^7.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-0",
-    "@babel/plugin-transform-runtime": "^7.3.4",
-    "@babel/preset-env": "^7.4.5",
-    "babel-plugin-inferno": "^6.0.5",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-plugin-inferno": "^6.1.0",
     "parcel": "^1.9.3",
     "parcel-plugin-compress": "^1.0.7",
     "parcel-plugin-inliner": "^1.0.6",
     "postcss-remove-unused-css": "^1.0.4"
   },
   "optionalDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.1",
-    "eslint-config-airbnb-base": "^13.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-html": "^5.0.3",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-react": "^7.10.0",
-    "eslint-watch": "^4.0.0",
-    "jasmine": "^3.3.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-watch": "^6.0.1",
+    "jasmine": "^3.5.0"
   },
   "babel": {
     "presets": [
