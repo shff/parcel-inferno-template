@@ -18,7 +18,7 @@
     "@babel/preset-env": "^7.7.7",
     "babel-plugin-inferno": "^6.1.0",
     "parcel": "^1.9.3",
-    "parcel-plugin-compress": "^1.0.7",
+    "parcel-plugin-compress": "^1.1.0",
     "parcel-plugin-inliner": "^1.0.6",
     "postcss-remove-unused-css": "^1.0.4"
   },
