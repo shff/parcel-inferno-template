@@ -3262,23 +3262,23 @@ indexes-of@^1.0.1:
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
 
-inferno-shared@7.3.3:
-  version "7.3.3"
-  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.3.3.tgz#aa4b70a38d1f37498766f31c6a99f5c5dfc58b63"
-  integrity sha512-OPpYFEHLA6grY8phbdG21ST7mjkUNXjZMpfZKgHrPUORFxnnn+u+i57QDpht5RtUZgVpHIKNxNQypq6+/m4LEA==
+inferno-shared@7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.4.0.tgz#4491deb75348019939b160cd5655196afa13ced0"
+  integrity sha512-6aa1fC/e4SP2lOLNg4ZS5Zz2SC+DnM7WxQbggmHhLSyOqZrsPrpZSlX25LbjR9lkhMrq6cmki3yInYFGuDzlRg==
 
-inferno-vnode-flags@7.3.3:
-  version "7.3.3"
-  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.3.3.tgz#aebaddea1569dd16512f44b92bf587837328db9d"
-  integrity sha512-LzLIRVrpv3OoH5gwWXOrHmgx3vMysI1fEG9PUBEc7Alz+vnD9rRBu9sP5AvGRN7Nxli7iLo6WcqF1nDIANGL7Q==
+inferno-vnode-flags@7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.4.0.tgz#5c049a73f3ff84a51458b06d279d6b18d09acdf0"
+  integrity sha512-TMPrvAxR2uUVSowLKnGgH34eWXErIYCdJ4d5hj8cSc8ta8knN6dj0z47UIw13qvmWfNjHgwm0C2/cm+G6fckiA==
 
-inferno@^7.3.3:
-  version "7.3.3"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.3.3.tgz#4098d5313c53281e44a857619764e74ab4438415"
-  integrity sha512-FlTMi77+uF0dR3HDfrhysCmOPE6cj9/2jDLQzUSx0KciewVQq7N2KdsfsA0HVSzVb9Do1pjcRtnAIDXmfKzGfA==
+inferno@^7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.4.0.tgz#8d3dc03562c6851043a1a467fd509f222e9dbf85"
+  integrity sha512-oEXx5iQmGXOvAPj1TZyCo6ndOc4qPg9zBLigMpkApAiV1SM/bri0M1eA/kD3e9jptcof9TwLBJD9bL6E6tq2tg==
   dependencies:
-    inferno-shared "7.3.3"
-    inferno-vnode-flags "7.3.3"
+    inferno-shared "7.4.0"
+    inferno-vnode-flags "7.4.0"
     opencollective-postinstall "^2.0.2"
 
 inflight@^1.0.4:
