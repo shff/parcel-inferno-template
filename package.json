@@ -23,7 +23,7 @@
     "postcss-remove-unused-css": "^1.0.4"
   },
   "optionalDependencies": {
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-friendly-formatter": "^4.0.1",
