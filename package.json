@@ -18,7 +18,7 @@
     "@babel/core": "^7.10.1",
     "@babel/plugin-transform-runtime": "^7.10.1",
     "@babel/preset-env": "^7.10.1",
-    "babel-plugin-inferno": "^6.1.0",
+    "babel-plugin-inferno": "^6.1.1",
     "parcel": "^1.12.4",
     "parcel-plugin-compress": "^2.0.2",
     "parcel-plugin-inliner": "^1.0.14",
