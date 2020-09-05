@@ -118,8 +118,7 @@
       ],
       "promise/prefer-await-to-callbacks": "error",
       "promise/prefer-await-to-then": "error",
-      "no-loops/no-loops": 2,
-      "react/no-deprecated": "off"
+      "no-loops/no-loops": 2
     }
   },
   "husky": {
