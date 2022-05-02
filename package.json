@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
-    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.13.8",
     "babel-plugin-inferno": "^6.4.0",
     "parcel": "^1.12.4",
