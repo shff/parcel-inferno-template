@@ -15,7 +15,7 @@
     "inferno": "^8.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
+    "@babel/core": "^7.21.4",
     "@babel/plugin-transform-runtime": "^7.21.0",
     "@babel/preset-env": "^7.13.8",
     "babel-plugin-inferno": "^6.6.0",
