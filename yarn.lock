@@ -4395,18 +4395,18 @@ indexes-of@^1.0.1:
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
 
-inferno-vnode-flags@8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-8.2.0.tgz#157c76da1a89a04244d49d3b87d924a0d4d9c1e5"
-  integrity sha512-SVu6C8auqd3FUKop8hYlmdKwtx332vLtX4hN62Ef0x4BUXQW1HbdxSoFiE3FroC/OsxP0b2Gz7BBcnGMTsnXiw==
+inferno-vnode-flags@8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-8.2.1.tgz#cd8dc52096f6c0c7ca30f65fb30c620c4bfe1030"
+  integrity sha512-gdxF0zya4kYAoY5BUQ9LPWfEZ2nlLsaREyQn0ohzPihnsw91L7CW2ShLtBlgvGtAkt3khVczG9OAGPZTeQEDdg==
 
-inferno@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-8.2.0.tgz#872312fef9b07cfaec748b1e2a8c0adcf4d84b89"
-  integrity sha512-Pz571E+OV6uIfVyzBaOhHxiHJpUXmGjXTojwtiXuRexz8HxZZ5lBnnyl2U27UHJOl7Kk6fdPPT7gs/8q2JMNTQ==
+inferno@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-8.2.1.tgz#b374b7578166f45239edc72d3e2b76761325f9df"
+  integrity sha512-cg4CYcIhBQoMOWpazLBGvJV3J7TCHCG2RTfQDVDFVtn6BIwDFp7xqpI0XSCVuo4GAUfMG9G8/cA78pBoe4PuKQ==
   dependencies:
     csstype "^3.1.1"
-    inferno-vnode-flags "8.2.0"
+    inferno-vnode-flags "8.2.1"
     opencollective-postinstall "^2.0.3"
 
 inflight@^1.0.4:
