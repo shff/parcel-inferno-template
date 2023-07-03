@@ -12,7 +12,7 @@
     "e2e": "cypress run -C false --config video=false,integrationFolder=app,supportFile=false,pluginsFile=false,testFiles=**/*.spec.js"
   },
   "dependencies": {
-    "inferno": "^8.2.1"
+    "inferno": "^8.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
